@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISC_V_Processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISC_V_Processor_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10000001fs"></ZoomEndTime>
+      <Cursor1Time time="390000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="59"></NameColumnWidth>
+      <ValueColumnWidth column_width="53"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/RISC_V_Processor_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/PC_In" type="array">
+      <obj_property name="ElementShortName">PC_In[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_In[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/PC_Out" type="array">
+      <obj_property name="ElementShortName">PC_Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/Operation" type="array">
+      <obj_property name="ElementShortName">Operation[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Operation[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/Mem_Addr" type="array">
+      <obj_property name="ElementShortName">Mem_Addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/Write_Data" type="array">
+      <obj_property name="ElementShortName">Write_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/memory" type="array">
+      <obj_property name="ElementShortName">memory[0:1023][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:1023][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/DM/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/a" type="array">
+      <obj_property name="ElementShortName">a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">a[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/b" type="array">
+      <obj_property name="ElementShortName">b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">b[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/Cin" type="logic">
+      <obj_property name="ElementShortName">Cin</obj_property>
+      <obj_property name="ObjectShortName">Cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/Cout" type="logic">
+      <obj_property name="ElementShortName">Cout</obj_property>
+      <obj_property name="ObjectShortName">Cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/ZERO" type="logic">
+      <obj_property name="ElementShortName">ZERO</obj_property>
+      <obj_property name="ObjectShortName">ZERO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/Less" type="logic">
+      <obj_property name="ElementShortName">Less</obj_property>
+      <obj_property name="ObjectShortName">Less</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/SingleCycle/ALU/Result" type="array">
+      <obj_property name="ElementShortName">Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[63:0]</obj_property>
+   </wvobject>
+</wave_config>
