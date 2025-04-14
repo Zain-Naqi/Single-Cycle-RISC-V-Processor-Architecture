@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/ALU_64_bit.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/ALU_Control.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Control_Unit.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Data_Memory.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Imm_Data_Extractor.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Instruction_Parser.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Mux.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Program_Counter.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Register_File.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Risc_V_Processor.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/Adder.v" \
+"../../../../SingleCycleProcessor.srcs/sources_1/new/top_control.v" \
+"../../../../SingleCycleProcessor.srcs/sim_1/new/RISC_V_Processor_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
